@@ -90,7 +90,6 @@ return [
         'string' => ':attribute はmin文字以上で入力してください',
         'array' => 'The :attribute must have at least :min items.',
     ],
-    'not_in' => 'The selected :attribute is invalid.',
     'not_regex' => 'The :attribute format is invalid.',
     'numeric' => 'The :attribute must be a number.',
     'password' => 'The password is incorrect.',
@@ -146,6 +145,10 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'email' => 'メールアドレス',
+        'password' => 'パスワード',
+        'token' => 'トークン',
+    ],
 
 ];
